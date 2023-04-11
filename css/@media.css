@@ -1,0 +1,16 @@
+@media (max-width: 750px) {
+   [class*="__container"] {
+      max-width: 970px;
+   }
+
+   .calculator-content-body-right {
+      border: 2.5px solid brown;
+      margin: 30px;
+      padding: 20px;
+      border-radius: 15px;
+   }
+
+   .title {
+      font-size: 25.5px;
+   }
+}
