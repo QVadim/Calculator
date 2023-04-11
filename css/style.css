@@ -1,0 +1,250 @@
+/* Шрифты */
+@import url(https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+@import url(https://fonts.googleapis.com/css?family=Raleway:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic);
+
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -moz-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: inherit;
+}
+
+/*--------------------*/
+html,
+body {
+  height: 100%;
+  width: 100%;
+  line-height: 1;
+  color: #000000;
+  font-family: 'Montserrat';
+  font-size: 22px;
+}
+
+/*--------------------*/
+#total-cost,
+#an-initial-fee,
+#credit-term {
+  font-family: 'Montserrat';
+  font-size: 22px;
+}
+
+.wrapper {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.calculator-content-body {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+[class*="__container"] {
+  max-width: 1320px;
+  margin: 0 auto;
+  border: 1px solid black;
+}
+
+/*--------------------*/
+
+.header {
+  padding: 30px;
+}
+
+.main {
+  padding: 30px;
+  flex: 1 1 auto;
+}
+
+.footer {
+  padding: 30px;
+  text-align: center;
+}
+
+/*--------------------*/
+
+
+.calculator-content-title {
+  font-size: 30px;
+  font-weight: 600;
+  color: #000000;
+  margin-top: 10px;
+  margin-bottom: 20px;
+  font-weight: bold;
+}
+
+.calculator-content-body-right {
+  border-left: 5px solid brown;
+  padding-left: 15px;
+}
+
+.title {
+  margin-top: 10px;
+  padding-bottom: 20px;
+}
+
+#total-cost,
+#an-initial-fee,
+#credit-term {
+  max-width: 200px;
+  height: 30px;
+  border: 1px solid rgb(203, 203, 203);
+  border-radius: 3px;
+  padding-left: 10px;
+}
+
+.value,
+.text {
+  font-size: 30px;
+  font-weight: 600;
+  opacity: 0.75;
+}
+
+.calculator-content-body-left-btns {
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+}
+
+.bank {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 15px;
+  padding: 10px;
+  margin: 5px 15px;
+  background: transparent;
+}
+
+.active {
+  border-radius: 5px;
+  border: 1px solid rgb(175, 175, 175);
+  background: rgb(246, 246, 246);
+  box-shadow: 3px 3px rgb(43, 110, 126), -0.5em 0 .4em rgb(16, 162, 198);
+}
+
+.value span {
+  margin-left: 15px;
+}
+
+.value {
+  border-radius: 15px;
+  border: 2px solid rgb(192, 192, 192);
+  padding-left: 15px;
+}
+
+.input-range {
+  margin-top: 10px;
+  width: 270px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  cursor: ew-resize;
+}
+
+/* -------------------- End code! --------------------*/
+
+input[type='range'] {
+  overflow: hidden;
+  width: 280px;
+  -webkit-appearance: none;
+  background-color: #59ab73;
+}
+
+input[type='range']::-webkit-slider-runnable-track {
+  height: 30px;
+  -webkit-appearance: none;
+  color: #00ffdd;
+  margin-top: -1px;
+}
+
+input[type='range']::-webkit-slider-thumb {
+  width: 15px;
+  -webkit-appearance: none;
+  height: 30px;
+  cursor: ew-resize;
+  background: #a11593;
+  box-shadow: -280px 0 0 280px #59ab73;
+}
